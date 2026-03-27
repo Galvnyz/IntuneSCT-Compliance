@@ -1,0 +1,143 @@
+{
+  "baseline": "Windows 11 v25H2 Security Baseline",
+  "totalSettings": 425,
+  "generatedBy": "GPOBaselineForge",
+  "packages": [
+    {
+      "rulesSizeKB": 9.0,
+      "severity": "Critical: 1, High: 1, Low: 1, Medium: 10",
+      "typeCheckPass": true,
+      "scriptSizeKB": 4.5,
+      "directory": "ApplicationControl",
+      "settingCount": 13,
+      "category": "Application Control"
+    },
+    {
+      "rulesSizeKB": 16.8,
+      "severity": "Critical: 2, High: 11, Medium: 13",
+      "typeCheckPass": true,
+      "scriptSizeKB": 6.8,
+      "directory": "AuditLogging",
+      "settingCount": 26,
+      "category": "Audit Logging"
+    },
+    {
+      "rulesSizeKB": 90.5,
+      "severity": "Low: 40, Medium: 96",
+      "typeCheckPass": true,
+      "scriptSizeKB": 38.6,
+      "directory": "BrowserSecurity",
+      "settingCount": 136,
+      "category": "Browser Security"
+    },
+    {
+      "rulesSizeKB": 13.7,
+      "severity": "Critical: 17, High: 2, Medium: 1",
+      "typeCheckPass": true,
+      "scriptSizeKB": 6.3,
+      "directory": "CredentialProtection",
+      "settingCount": 20,
+      "category": "Credential Protection"
+    },
+    {
+      "rulesSizeKB": 3.5,
+      "severity": "Critical: 1, Medium: 4",
+      "typeCheckPass": true,
+      "scriptSizeKB": 2.0,
+      "directory": "DeviceSecurity",
+      "settingCount": 5,
+      "category": "Device Security"
+    },
+    {
+      "rulesSizeKB": 2.6,
+      "severity": "High: 4",
+      "typeCheckPass": true,
+      "scriptSizeKB": 1.4,
+      "directory": "Encryption",
+      "settingCount": 4,
+      "category": "Encryption"
+    },
+    {
+      "rulesSizeKB": 32.2,
+      "severity": "High: 44, Medium: 1",
+      "typeCheckPass": true,
+      "scriptSizeKB": 16.2,
+      "directory": "EndpointProtection",
+      "settingCount": 45,
+      "category": "Endpoint Protection"
+    },
+    {
+      "rulesSizeKB": 40.0,
+      "severity": "Critical: 7, High: 34, Medium: 22",
+      "typeCheckPass": true,
+      "scriptSizeKB": 19.0,
+      "directory": "IdentityAndAccess",
+      "settingCount": 63,
+      "category": "Identity & Access"
+    },
+    {
+      "rulesSizeKB": 48.2,
+      "severity": "High: 55, Medium: 16",
+      "typeCheckPass": true,
+      "scriptSizeKB": 22.1,
+      "directory": "NetworkSecurity",
+      "settingCount": 71,
+      "category": "Network Security"
+    },
+    {
+      "rulesSizeKB": 5.3,
+      "severity": "Medium: 8",
+      "typeCheckPass": true,
+      "scriptSizeKB": 2.6,
+      "directory": "OSHardening",
+      "settingCount": 8,
+      "category": "OS Hardening"
+    },
+    {
+      "rulesSizeKB": 2.9,
+      "severity": "Low: 4",
+      "typeCheckPass": true,
+      "scriptSizeKB": 1.8,
+      "directory": "PowerManagement",
+      "settingCount": 4,
+      "category": "Power Management"
+    },
+    {
+      "rulesSizeKB": 6.7,
+      "severity": "High: 1, Medium: 9",
+      "typeCheckPass": true,
+      "scriptSizeKB": 3.3,
+      "directory": "PrintSecurity",
+      "settingCount": 10,
+      "category": "Print Security"
+    },
+    {
+      "rulesSizeKB": 4.3,
+      "severity": "Low: 4, Medium: 2",
+      "typeCheckPass": true,
+      "scriptSizeKB": 2.4,
+      "directory": "PrivacyAndTelemetry",
+      "settingCount": 6,
+      "category": "Privacy & Telemetry"
+    },
+    {
+      "rulesSizeKB": 6.8,
+      "severity": "High: 10",
+      "typeCheckPass": true,
+      "scriptSizeKB": 3.6,
+      "directory": "RemoteAccess",
+      "settingCount": 10,
+      "category": "Remote Access"
+    },
+    {
+      "rulesSizeKB": 2.2,
+      "severity": "Low: 4",
+      "typeCheckPass": true,
+      "scriptSizeKB": 1.0,
+      "directory": "ServiceHardening",
+      "settingCount": 4,
+      "category": "Service Hardening"
+    }
+  ],
+  "generatedDate": "2026-03-27"
+}

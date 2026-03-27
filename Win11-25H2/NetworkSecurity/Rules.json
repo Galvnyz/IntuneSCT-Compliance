@@ -1,0 +1,998 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-wifinetworkmanager-config-AutoConnectAllowedOEM",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AutoConnectAllowedOEM (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\WcmSvc\\wifinetworkmanager\\config\\AutoConnectAllowedOEM must be 0. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-Bowser-EnableMailslots",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableMailslots (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\Bowser\\EnableMailslots must be 0. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanServer-AuditClientDoesNotSupportEncryption",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AuditClientDoesNotSupportEncryption (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanServer\\AuditClientDoesNotSupportEncryption must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanServer-AuditClientDoesNotSupportSigning",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AuditClientDoesNotSupportSigning (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanServer\\AuditClientDoesNotSupportSigning must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanServer-AuditInsecureGuestLogon",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AuditInsecureGuestLogon (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanServer\\AuditInsecureGuestLogon must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanServer-EnableAuthRateLimiter",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableAuthRateLimiter (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanServer\\EnableAuthRateLimiter must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanServer-MaxSmb2Dialect",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "785",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MaxSmb2Dialect (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanServer\\MaxSmb2Dialect must be 785. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanServer-MinSmb2Dialect",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "768",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MinSmb2Dialect (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanServer\\MinSmb2Dialect must be 768. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanServer-InvalidAuthenticationDelayTimeInMs",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2000",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "InvalidAuthenticationDelayTimeInMs (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanServer\\InvalidAuthenticationDelayTimeInMs must be 2000. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-AllowInsecureGuestAuth",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowInsecureGuestAuth (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\AllowInsecureGuestAuth must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-AuditInsecureGuestLogon",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AuditInsecureGuestLogon (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\AuditInsecureGuestLogon must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-AuditServerDoesNotSupportEncryption",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AuditServerDoesNotSupportEncryption (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\AuditServerDoesNotSupportEncryption must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-AuditServerDoesNotSupportSigning",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AuditServerDoesNotSupportSigning (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\AuditServerDoesNotSupportSigning must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-MaxSmb2Dialect",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "785",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MaxSmb2Dialect (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\MaxSmb2Dialect must be 785. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-MinSmb2Dialect",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "768",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MinSmb2Dialect (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\MinSmb2Dialect must be 768. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-RequireEncryption",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RequireEncryption (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\RequireEncryption must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-Network Connections-NC_ShowSharedAccessUI",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NC_ShowSharedAccessUI (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\Network Connections\\NC_ShowSharedAccessUI must be 0. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-NetworkProvider-EnableMailslots",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableMailslots (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\NetworkProvider\\EnableMailslots must be 0. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG--*-SYSVOL",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "RequireMutualAuthentication=1,RequireIntegrity=1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "\\\\*\\SYSVOL (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\NetworkProvider\\HardenedPaths\\\\\\*\\SYSVOL must be RequireMutualAuthentication=1,RequireIntegrity=1. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG--*-NETLOGON",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "RequireMutualAuthentication=1,RequireIntegrity=1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "\\\\*\\NETLOGON (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\NetworkProvider\\HardenedPaths\\\\\\*\\NETLOGON must be RequireMutualAuthentication=1,RequireIntegrity=1. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WcmSvc-GroupPolicy-fBlockNonDomain",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "fBlockNonDomain (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WcmSvc\\GroupPolicy\\fBlockNonDomain must be 1. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WinRM-Client-AllowDigest",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowDigest (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WinRM\\Client\\AllowDigest must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WinRM-Client-AllowUnencryptedTraffic",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowUnencryptedTraffic (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WinRM\\Client\\AllowUnencryptedTraffic must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WinRM-Client-AllowBasic",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowBasic (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WinRM\\Client\\AllowBasic must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WinRM-Service-AllowUnencryptedTraffic",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowUnencryptedTraffic (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WinRM\\Service\\AllowUnencryptedTraffic must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WinRM-Service-DisableRunAs",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableRunAs (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WinRM\\Service\\DisableRunAs must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WinRM-Service-AllowBasic",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowBasic (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WinRM\\Service\\AllowBasic must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows NT-DNSClient-EnableMulticast",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableMulticast (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\DNSClient\\EnableMulticast must be 0. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows NT-DNSClient-EnableNetbios",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableNetbios (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\DNSClient\\EnableNetbios must be 0. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows NT-Rpc-RestrictRemoteClients",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RestrictRemoteClients (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Rpc\\RestrictRemoteClients must be 1. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Microsoft-WindowsFirewall-PolicyVersion",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "538",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PolicyVersion (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PolicyVersion must be 538. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-DomainProfile-DefaultOutboundAction",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DefaultOutboundAction (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\DefaultOutboundAction must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-DomainProfile-DisableNotifications",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableNotifications (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\DisableNotifications must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-DomainProfile-EnableFirewall",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableFirewall (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\EnableFirewall must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-DomainProfile-DefaultInboundAction",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DefaultInboundAction (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\DefaultInboundAction must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-DomainProfile-Logging-LogDroppedPackets",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogDroppedPackets (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\Logging\\LogDroppedPackets must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-DomainProfile-Logging-LogFileSize",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "16384",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogFileSize (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\Logging\\LogFileSize must be 16384. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-DomainProfile-Logging-LogSuccessfulConnections",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogSuccessfulConnections (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\Logging\\LogSuccessfulConnections must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PrivateProfile-EnableFirewall",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableFirewall (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\EnableFirewall must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PrivateProfile-DisableNotifications",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableNotifications (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\DisableNotifications must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PrivateProfile-DefaultInboundAction",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DefaultInboundAction (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\DefaultInboundAction must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PrivateProfile-DefaultOutboundAction",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DefaultOutboundAction (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\DefaultOutboundAction must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-PrivateProfile-Logging-LogSuccessfulConnections",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogSuccessfulConnections (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\Logging\\LogSuccessfulConnections must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-PrivateProfile-Logging-LogDroppedPackets",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogDroppedPackets (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\Logging\\LogDroppedPackets must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-PrivateProfile-Logging-LogFileSize",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "16384",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogFileSize (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\Logging\\LogFileSize must be 16384. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PublicProfile-DefaultOutboundAction",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DefaultOutboundAction (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\DefaultOutboundAction must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PublicProfile-EnableFirewall",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableFirewall (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\EnableFirewall must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PublicProfile-DisableNotifications",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableNotifications (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\DisableNotifications must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PublicProfile-AllowLocalIPsecPolicyMerge",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowLocalIPsecPolicyMerge (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\AllowLocalIPsecPolicyMerge must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PublicProfile-AllowLocalPolicyMerge",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowLocalPolicyMerge (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\AllowLocalPolicyMerge must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PublicProfile-DefaultInboundAction",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DefaultInboundAction (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\DefaultInboundAction must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-PublicProfile-Logging-LogFileSize",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "16384",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogFileSize (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\Logging\\LogFileSize must be 16384. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-PublicProfile-Logging-LogDroppedPackets",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogDroppedPackets (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\Logging\\LogDroppedPackets must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-PublicProfile-Logging-LogSuccessfulConnections",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogSuccessfulConnections (Network Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\Logging\\LogSuccessfulConnections must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-LanmanServer-Parameters-SMB1",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SMB1 (Network Security)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\LanmanServer\\Parameters\\SMB1 must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Services-MrxSmb10-Start",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "4",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Start (Network Security)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\MrxSmb10\\Start must be 4. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Netbt-Parameters-NoNameReleaseOnDemand",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NoNameReleaseOnDemand (Network Security)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\Netbt\\Parameters\\NoNameReleaseOnDemand must be 1. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Netbt-Parameters-NodeType",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NodeType (Network Security)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\Netbt\\Parameters\\NodeType must be 2. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Tcpip-Parameters-EnableICMPRedirect",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableICMPRedirect (Network Security)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters\\EnableICMPRedirect must be 0. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Tcpip-Parameters-DisableIPSourceRouting",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableIPSourceRouting (Network Security)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters\\DisableIPSourceRouting must be 2. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Tcpip6-Parameters-DisableIPSourceRouting",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableIPSourceRouting (Network Security)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip6\\Parameters\\DisableIPSourceRouting must be 2. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-LanmanWorkstation-Parameters-EnablePlainTextPassword",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnablePlainTextPassword (Network Security)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\LanmanWorkstation\\Parameters\\EnablePlainTextPassword must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-LanManServer-Parameters-RestrictNullSessAccess",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RestrictNullSessAccess (Network Security)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\LanManServer\\Parameters\\RestrictNullSessAccess must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Netlogon-Parameters-requirestrongkey",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "requirestrongkey (Network Security)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\Netlogon\\Parameters\\requirestrongkey must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-LanmanWorkstation-Parameters-RequireSecuritySignature",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RequireSecuritySignature (Network Security)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\LanmanWorkstation\\Parameters\\RequireSecuritySignature must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Netlogon-Parameters-sealsecurechannel",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "sealsecurechannel (Network Security)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\Netlogon\\Parameters\\sealsecurechannel must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Netlogon-Parameters-requiresignorseal",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "requiresignorseal (Network Security)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\Netlogon\\Parameters\\requiresignorseal must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Netlogon-Parameters-signsecurechannel",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "signsecurechannel (Network Security)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\Netlogon\\Parameters\\signsecurechannel must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-LanManServer-Parameters-requiresecuritysignature",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "requiresecuritysignature (Network Security)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\LanManServer\\Parameters\\requiresecuritysignature must be 1. Severity: High. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Services-LDAP-LDAPClientIntegrity",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LDAPClientIntegrity (Network Security)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\LDAP\\LDAPClientIntegrity must be 1. Severity: Medium. Category: Network Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Netlogon-Parameters-DisablePasswordChange",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisablePasswordChange (Network Security)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\Netlogon\\Parameters\\DisablePasswordChange must be 0. Severity: High. Category: Network Security."
+        }
+      ]
+    }
+  ]
+}

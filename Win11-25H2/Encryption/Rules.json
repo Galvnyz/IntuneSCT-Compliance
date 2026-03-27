@@ -1,0 +1,60 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Microsoft-FVE-UseEnhancedPin",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "UseEnhancedPin (Encryption)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\UseEnhancedPin must be 1. Severity: High. Category: Encryption."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Microsoft-FVE-RDVDenyCrossOrg",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RDVDenyCrossOrg (Encryption)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\RDVDenyCrossOrg must be 0. Severity: High. Category: Encryption."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Microsoft-FVE-DisableExternalDMAUnderLock",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableExternalDMAUnderLock (Encryption)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\DisableExternalDMAUnderLock must be 1. Severity: High. Category: Encryption."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Microsoft-FVE-RDVDenyWriteAccess",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RDVDenyWriteAccess (Encryption)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Policies\\Microsoft\\FVE\\RDVDenyWriteAccess must be 1. Severity: High. Category: Encryption."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Biometrics-FacialFeatures-EnhancedAntiSpoofing",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnhancedAntiSpoofing (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Biometrics\\FacialFeatures\\EnhancedAntiSpoofing must be 1. Severity: Medium. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WTDS-Components-NotifyMalicious",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NotifyMalicious (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WTDS\\Components\\NotifyMalicious must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WTDS-Components-NotifyPasswordReuse",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NotifyPasswordReuse (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WTDS\\Components\\NotifyPasswordReuse must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WTDS-Components-NotifyUnsafeApp",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NotifyUnsafeApp (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WTDS\\Components\\NotifyUnsafeApp must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WTDS-Components-ServiceEnabled",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ServiceEnabled (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WTDS\\Components\\ServiceEnabled must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-EarlyLaunch-DriverLoadPolicy",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DriverLoadPolicy (Endpoint Protection)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Policies\\EarlyLaunch\\DriverLoadPolicy must be 3. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Microsoft-Windows Defender-PUAProtection",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PUAProtection (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\PUAProtection must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Microsoft-Windows Defender-DisableLocalAdminMerge",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableLocalAdminMerge (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\DisableLocalAdminMerge must be 0. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Microsoft-Windows Defender-HideExclusionsFromLocalAdmins",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "HideExclusionsFromLocalAdmins (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\HideExclusionsFromLocalAdmins must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Microsoft-Windows Defender-DisableRoutinelyTakingAction",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableRoutinelyTakingAction (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\DisableRoutinelyTakingAction must be 0. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Features-PassiveRemediation",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PassiveRemediation (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Features\\PassiveRemediation must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-MpEngine-MpCloudBlockLevel",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MpCloudBlockLevel (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\MpEngine\\MpCloudBlockLevel must be 2. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-MpEngine-MpBafsExtendedTimeout",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "50",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MpBafsExtendedTimeout (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\MpEngine\\MpBafsExtendedTimeout must be 50. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-NIS-EnableConvertWarnToBlock",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableConvertWarnToBlock (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\NIS\\EnableConvertWarnToBlock must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Real-Time Protection-DisableIOAVProtection",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableIOAVProtection (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection\\DisableIOAVProtection must be 0. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Real-Time Protection-DisableRealtimeMonitoring",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableRealtimeMonitoring (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection\\DisableRealtimeMonitoring must be 0. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Real-Time Protection-DisableScriptScanning",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableScriptScanning (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection\\DisableScriptScanning must be 0. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Real-Time Protection-DisableBehaviorMonitoring",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableBehaviorMonitoring (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection\\DisableBehaviorMonitoring must be 0. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Real-Time Protection-RealtimeScanDirection",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RealtimeScanDirection (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection\\RealtimeScanDirection must be 0. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Real-Time Protection-DisableOnAccessProtection",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableOnAccessProtection (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection\\DisableOnAccessProtection must be 0. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Real-Time Protection-DisableScanOnRealtimeEnable",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableScanOnRealtimeEnable (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection\\DisableScanOnRealtimeEnable must be 0. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Real-Time Protection-OobeEnableRtpAndSigUpdate",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "OobeEnableRtpAndSigUpdate (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection\\OobeEnableRtpAndSigUpdate must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Reporting-EnableDynamicSignatureDroppedEventReporting",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableDynamicSignatureDroppedEventReporting (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Reporting\\EnableDynamicSignatureDroppedEventReporting must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Scan-DisableRemovableDriveScanning",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableRemovableDriveScanning (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Scan\\DisableRemovableDriveScanning must be 0. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Scan-QuickScanIncludeExclusions",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "QuickScanIncludeExclusions (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Scan\\QuickScanIncludeExclusions must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Spynet-SpynetReporting",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SpynetReporting (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Spynet\\SpynetReporting must be 2. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Spynet-DisableBlockAtFirstSeen",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableBlockAtFirstSeen (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Spynet\\DisableBlockAtFirstSeen must be 0. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender-Spynet-SubmitSamplesConsent",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SubmitSamplesConsent (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Spynet\\SubmitSamplesConsent must be 3. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender Exploit Guard-ASR-ExploitGuard_ASR_Rules",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ExploitGuard_ASR_Rules (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\ExploitGuard_ASR_Rules must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-75668c1f-73b5-4cf0-bb93-3ecf5cb7cc84",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "75668c1f-73b5-4cf0-bb93-3ecf5cb7cc84 (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\75668c1f-73b5-4cf0-bb93-3ecf5cb7cc84 must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-3b576869-a4ec-4529-8536-b80a7769e899",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "3b576869-a4ec-4529-8536-b80a7769e899 (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\3b576869-a4ec-4529-8536-b80a7769e899 must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-d4f940ab-401b-4efc-aadc-ad5f3c50688a",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "d4f940ab-401b-4efc-aadc-ad5f3c50688a (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\d4f940ab-401b-4efc-aadc-ad5f3c50688a must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-5beb7efe-fd9a-4556-801d-275e5ffc04cc",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "5beb7efe-fd9a-4556-801d-275e5ffc04cc (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\5beb7efe-fd9a-4556-801d-275e5ffc04cc must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-d3e037e1-3eb8-44c8-a917-57927947596d",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "d3e037e1-3eb8-44c8-a917-57927947596d (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\d3e037e1-3eb8-44c8-a917-57927947596d must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-be9ba2d9-53ea-4cdc-84e5-9b1eeee46550",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "be9ba2d9-53ea-4cdc-84e5-9b1eeee46550 (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\be9ba2d9-53ea-4cdc-84e5-9b1eeee46550 must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2 (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2 must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4 (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4 must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-26190899-1602-49e8-8b27-eb1d0a1ce869",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "26190899-1602-49e8-8b27-eb1d0a1ce869 (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\26190899-1602-49e8-8b27-eb1d0a1ce869 must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-c1db55ab-c21a-4637-bb3f-a12568109d35",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "c1db55ab-c21a-4637-bb3f-a12568109d35 (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\c1db55ab-c21a-4637-bb3f-a12568109d35 must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-e6db77e5-3df2-4cf1-b95a-636979351e5b",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "e6db77e5-3df2-4cf1-b95a-636979351e5b (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\e6db77e5-3df2-4cf1-b95a-636979351e5b must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-56a863a9-875e-4185-98a7-b882c64b5ce5",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "56a863a9-875e-4185-98a7-b882c64b5ce5 (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\56a863a9-875e-4185-98a7-b882c64b5ce5 must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-ASR-Rules-d1e49aac-8f56-4280-b9ba-993a6d77406c",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "2",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "d1e49aac-8f56-4280-b9ba-993a6d77406c (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR\\Rules\\d1e49aac-8f56-4280-b9ba-993a6d77406c must be 2. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows Defender Exploit Guard-Network Protection-EnableNetworkProtection",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableNetworkProtection (Endpoint Protection)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\Network Protection\\EnableNetworkProtection must be 1. Severity: High. Category: Endpoint Protection."
+        }
+      ]
+    }
+  ]
+}

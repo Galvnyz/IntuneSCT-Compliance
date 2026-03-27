@@ -1,0 +1,144 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Windows NT-Printers-DisableWebPnPDownload",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableWebPnPDownload (Print Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\DisableWebPnPDownload must be 1. Severity: Medium. Category: Print Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows NT-Printers-RedirectionGuardPolicy",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RedirectionGuardPolicy (Print Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\RedirectionGuardPolicy must be 1. Severity: Medium. Category: Print Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows NT-Printers-CopyFilesPolicy",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "CopyFilesPolicy (Print Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\CopyFilesPolicy must be 1. Severity: Medium. Category: Print Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Printers-PointAndPrint-RestrictDriverInstallationToAdministrators",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RestrictDriverInstallationToAdministrators (Print Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\PointAndPrint\\RestrictDriverInstallationToAdministrators must be 1. Severity: High. Category: Print Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Printers-RPC-RpcUseNamedPipeProtocol",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RpcUseNamedPipeProtocol (Print Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\RPC\\RpcUseNamedPipeProtocol must be 0. Severity: Medium. Category: Print Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Printers-RPC-RpcAuthentication",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RpcAuthentication (Print Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\RPC\\RpcAuthentication must be 0. Severity: Medium. Category: Print Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Printers-RPC-RpcProtocols",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "5",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RpcProtocols (Print Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\RPC\\RpcProtocols must be 5. Severity: Medium. Category: Print Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Printers-RPC-ForceKerberosForRpc",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ForceKerberosForRpc (Print Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\RPC\\ForceKerberosForRpc must be 0. Severity: Medium. Category: Print Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Printers-RPC-RpcTcpPort",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RpcTcpPort (Print Security)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\RPC\\RpcTcpPort must be 0. Severity: Medium. Category: Print Security."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Control-Print-RpcAuthnLevelPrivacyEnabled",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RpcAuthnLevelPrivacyEnabled (Print Security)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\RpcAuthnLevelPrivacyEnabled must be 1. Severity: Medium. Category: Print Security."
+        }
+      ]
+    }
+  ]
+}

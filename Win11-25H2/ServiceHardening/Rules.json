@@ -1,0 +1,60 @@
+{
+  "Rules": [
+    {
+      "SettingName": "SVC-XboxGipSvc",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "4",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Service: XboxGipSvc",
+          "Description": "Service 'XboxGipSvc' startup type must be 4. Severity: Low."
+        }
+      ]
+    },
+    {
+      "SettingName": "SVC-XblAuthManager",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "4",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Service: XblAuthManager",
+          "Description": "Service 'XblAuthManager' startup type must be 4. Severity: Low."
+        }
+      ]
+    },
+    {
+      "SettingName": "SVC-XblGameSave",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "4",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Service: XblGameSave",
+          "Description": "Service 'XblGameSave' startup type must be 4. Severity: Low."
+        }
+      ]
+    },
+    {
+      "SettingName": "SVC-XboxNetApiSvc",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "4",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Service: XboxNetApiSvc",
+          "Description": "Service 'XboxNetApiSvc' startup type must be 4. Severity: Low."
+        }
+      ]
+    }
+  ]
+}
