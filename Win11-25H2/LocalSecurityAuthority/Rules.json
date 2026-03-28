@@ -1,0 +1,228 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Control-Lsa-RunAsPPL",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RunAsPPL (Local Security Authority)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\RunAsPPL must be 1. Severity: Critical. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Control-Lsa-LimitBlankPasswordUse",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LimitBlankPasswordUse (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Control\\Lsa\\LimitBlankPasswordUse must be 1. Severity: Critical. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Control-Lsa-RestrictAnonymousSAM",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RestrictAnonymousSAM (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Control\\Lsa\\RestrictAnonymousSAM must be 1. Severity: Critical. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Control-Lsa-RestrictAnonymous",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RestrictAnonymous (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Control\\Lsa\\RestrictAnonymous must be 1. Severity: Critical. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Control-Lsa-SCENoApplyLegacyAuditPolicy",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SCENoApplyLegacyAuditPolicy (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Control\\Lsa\\SCENoApplyLegacyAuditPolicy must be 1. Severity: Critical. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Lsa-MSV1_0-NTLMMinClientSec",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "537395200",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NTLMMinClientSec (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Control\\Lsa\\MSV1_0\\NTLMMinClientSec must be 537395200. Severity: Critical. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Control-Lsa-LmCompatibilityLevel",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "5",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LmCompatibilityLevel (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Control\\Lsa\\LmCompatibilityLevel must be 5. Severity: Critical. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Lsa-MSV1_0-allownullsessionfallback",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "allownullsessionfallback (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Control\\Lsa\\MSV1_0\\allownullsessionfallback must be 0. Severity: Critical. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Lsa-MSV1_0-NTLMMinServerSec",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "537395200",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NTLMMinServerSec (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Control\\Lsa\\MSV1_0\\NTLMMinServerSec must be 537395200. Severity: Critical. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Netlogon-Parameters-requirestrongkey",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "requirestrongkey (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\Netlogon\\Parameters\\requirestrongkey must be 1. Severity: High. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Netlogon-Parameters-sealsecurechannel",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "sealsecurechannel (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\Netlogon\\Parameters\\sealsecurechannel must be 1. Severity: High. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Netlogon-Parameters-requiresignorseal",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "requiresignorseal (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\Netlogon\\Parameters\\requiresignorseal must be 1. Severity: High. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Netlogon-Parameters-signsecurechannel",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "signsecurechannel (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\Netlogon\\Parameters\\signsecurechannel must be 1. Severity: High. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Services-LDAP-LDAPClientIntegrity",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LDAPClientIntegrity (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\LDAP\\LDAPClientIntegrity must be 1. Severity: Medium. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Control-Lsa-RestrictRemoteSAM",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "O:BAG:BAD:(A;;RC;;;BA)",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RestrictRemoteSAM (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Control\\Lsa\\RestrictRemoteSAM must be O:BAG:BAD:(A;;RC;;;BA). Severity: Medium. Category: Local Security Authority."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Netlogon-Parameters-DisablePasswordChange",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisablePasswordChange (Local Security Authority)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\Netlogon\\Parameters\\DisablePasswordChange must be 0. Severity: High. Category: Local Security Authority."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-DeviceInstall-Restrictions-DenyDeviceClasses",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DenyDeviceClasses (Administrative Templates - Device Installation)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DeviceInstall\\Restrictions\\DenyDeviceClasses must be 1. Severity: Medium. Category: Administrative Templates - Device Installation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-DeviceInstall-Restrictions-DenyDeviceClassesRetroactive",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DenyDeviceClassesRetroactive (Administrative Templates - Device Installation)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DeviceInstall\\Restrictions\\DenyDeviceClassesRetroactive must be 1. Severity: Medium. Category: Administrative Templates - Device Installation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Restrictions-DenyDeviceClasses-**delvals.",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "**delvals. (Administrative Templates - Device Installation)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DeviceInstall\\Restrictions\\DenyDeviceClasses\\**delvals. must be . Severity: Medium. Category: Administrative Templates - Device Installation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Restrictions-DenyDeviceClasses-1",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "{d48179be-ec20-11d1-b6b8-00c04fa372a7}",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1 (Administrative Templates - Device Installation)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DeviceInstall\\Restrictions\\DenyDeviceClasses\\1 must be {d48179be-ec20-11d1-b6b8-00c04fa372a7}. Severity: Medium. Category: Administrative Templates - Device Installation."
+        }
+      ]
+    }
+  ]
+}

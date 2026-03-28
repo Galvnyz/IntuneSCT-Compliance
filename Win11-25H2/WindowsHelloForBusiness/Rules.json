@@ -1,0 +1,18 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Biometrics-FacialFeatures-EnhancedAntiSpoofing",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnhancedAntiSpoofing (Windows Hello For Business)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Biometrics\\FacialFeatures\\EnhancedAntiSpoofing must be 1. Severity: Medium. Category: Windows Hello For Business."
+        }
+      ]
+    }
+  ]
+}

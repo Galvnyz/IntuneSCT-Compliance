@@ -1,0 +1,60 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-WTDS-Components-NotifyMalicious",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NotifyMalicious (Smart Screen)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WTDS\\Components\\NotifyMalicious must be 1. Severity: High. Category: Smart Screen."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WTDS-Components-NotifyPasswordReuse",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NotifyPasswordReuse (Smart Screen)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WTDS\\Components\\NotifyPasswordReuse must be 1. Severity: High. Category: Smart Screen."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WTDS-Components-NotifyUnsafeApp",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NotifyUnsafeApp (Smart Screen)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WTDS\\Components\\NotifyUnsafeApp must be 1. Severity: High. Category: Smart Screen."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WTDS-Components-ServiceEnabled",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ServiceEnabled (Smart Screen)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WTDS\\Components\\ServiceEnabled must be 1. Severity: High. Category: Smart Screen."
+        }
+      ]
+    }
+  ]
+}

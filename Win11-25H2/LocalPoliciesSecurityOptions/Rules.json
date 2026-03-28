@@ -1,0 +1,228 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Policies-System-MSAOptional",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MSAOptional (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\MSAOptional must be 1. Severity: Medium. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-System-DisableAutomaticRestartSignOn",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableAutomaticRestartSignOn (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\DisableAutomaticRestartSignOn must be 1. Severity: Medium. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-System-LocalAccountTokenFilterPolicy",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LocalAccountTokenFilterPolicy (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\LocalAccountTokenFilterPolicy must be 0. Severity: Critical. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-System-EnableMPR",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableMPR (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\EnableMPR must be 0. Severity: Medium. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-System-Audit-ProcessCreationIncludeCmdLine_Enabled",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ProcessCreationIncludeCmdLine_Enabled (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\Audit\\ProcessCreationIncludeCmdLine_Enabled must be 1. Severity: Medium. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-System-ConsentPromptBehaviorEnhancedAdmin",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ConsentPromptBehaviorEnhancedAdmin (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\ConsentPromptBehaviorEnhancedAdmin must be 1. Severity: High. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-System-TypeOfAdminApprovalMode",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "TypeOfAdminApprovalMode (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\TypeOfAdminApprovalMode must be 2. Severity: Medium. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-CurrentVersion-Winlogon-ScRemoveOption",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ScRemoveOption (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\ScRemoveOption must be 1. Severity: Medium. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-System-InactivityTimeoutSecs",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "900",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "InactivityTimeoutSecs (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\InactivityTimeoutSecs must be 900. Severity: Medium. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-System-ConsentPromptBehaviorAdmin",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ConsentPromptBehaviorAdmin (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\ConsentPromptBehaviorAdmin must be 2. Severity: High. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-System-EnableSecureUIAPaths",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableSecureUIAPaths (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\EnableSecureUIAPaths must be 1. Severity: Medium. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-System-EnableLUA",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableLUA (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\EnableLUA must be 1. Severity: Critical. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-System-ConsentPromptBehaviorUser",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ConsentPromptBehaviorUser (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\ConsentPromptBehaviorUser must be 0. Severity: High. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-System-EnableInstallerDetection",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableInstallerDetection (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\EnableInstallerDetection must be 1. Severity: Medium. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-System-FilterAdministratorToken",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "FilterAdministratorToken (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\FilterAdministratorToken must be 1. Severity: Critical. Category: Local Policies Security Options."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-System-EnableVirtualization",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableVirtualization (Local Policies Security Options)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\EnableVirtualization must be 1. Severity: Medium. Category: Local Policies Security Options."
+        }
+      ]
+    }
+  ]
+}

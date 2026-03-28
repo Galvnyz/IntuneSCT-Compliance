@@ -1,0 +1,46 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Policies-LAPS-BackupDirectory",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "BackupDirectory (LAPS)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\LAPS\\BackupDirectory must be 2. Severity: High. Category: LAPS."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-LAPS-ADPasswordEncryptionEnabled",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ADPasswordEncryptionEnabled (LAPS)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\LAPS\\ADPasswordEncryptionEnabled must be 1. Severity: High. Category: LAPS."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-LAPS-ADBackupDSRMPassword",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ADBackupDSRMPassword (LAPS)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\LAPS\\ADBackupDSRMPassword must be 1. Severity: High. Category: LAPS."
+        }
+      ]
+    }
+  ]
+}

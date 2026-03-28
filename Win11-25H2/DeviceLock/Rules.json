@@ -1,0 +1,130 @@
+{
+  "Rules": [
+    {
+      "SettingName": "ACC-LSAAnonymousNameLookup",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LSAAnonymousNameLookup",
+          "Description": "Security policy 'LSAAnonymousNameLookup' must be 0. Severity: Critical."
+        }
+      ]
+    },
+    {
+      "SettingName": "ACC-MinimumPasswordLength",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "14",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MinimumPasswordLength",
+          "Description": "Security policy 'MinimumPasswordLength' must be 14. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "ACC-PasswordComplexity",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PasswordComplexity",
+          "Description": "Security policy 'PasswordComplexity' must be 1. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "ACC-PasswordHistorySize",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "24",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PasswordHistorySize",
+          "Description": "Security policy 'PasswordHistorySize' must be 24. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "ACC-LockoutBadCount",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "10",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LockoutBadCount",
+          "Description": "Security policy 'LockoutBadCount' must be 10. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "ACC-ResetLockoutCount",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "10",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ResetLockoutCount",
+          "Description": "Security policy 'ResetLockoutCount' must be 10. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "ACC-LockoutDuration",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "10",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LockoutDuration",
+          "Description": "Security policy 'LockoutDuration' must be 10. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "ACC-AllowAdministratorLockout",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowAdministratorLockout",
+          "Description": "Security policy 'AllowAdministratorLockout' must be 1. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "ACC-ClearTextPassword",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ClearTextPassword",
+          "Description": "Security policy 'ClearTextPassword' must be 0. Severity: High."
+        }
+      ]
+    }
+  ]
+}

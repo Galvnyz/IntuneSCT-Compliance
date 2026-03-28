@@ -1,0 +1,88 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-WinRM-Client-AllowDigest",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowDigest (Administrative Templates - Windows Remote Management)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WinRM\\Client\\AllowDigest must be 0. Severity: High. Category: Administrative Templates - Windows Remote Management."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WinRM-Client-AllowUnencryptedTraffic",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowUnencryptedTraffic (Administrative Templates - Windows Remote Management)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WinRM\\Client\\AllowUnencryptedTraffic must be 0. Severity: High. Category: Administrative Templates - Windows Remote Management."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WinRM-Client-AllowBasic",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowBasic (Administrative Templates - Windows Remote Management)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WinRM\\Client\\AllowBasic must be 0. Severity: High. Category: Administrative Templates - Windows Remote Management."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WinRM-Service-AllowUnencryptedTraffic",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowUnencryptedTraffic (Administrative Templates - Windows Remote Management)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WinRM\\Service\\AllowUnencryptedTraffic must be 0. Severity: High. Category: Administrative Templates - Windows Remote Management."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WinRM-Service-DisableRunAs",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableRunAs (Administrative Templates - Windows Remote Management)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WinRM\\Service\\DisableRunAs must be 1. Severity: High. Category: Administrative Templates - Windows Remote Management."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WinRM-Service-AllowBasic",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowBasic (Administrative Templates - Windows Remote Management)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WinRM\\Service\\AllowBasic must be 0. Severity: High. Category: Administrative Templates - Windows Remote Management."
+        }
+      ]
+    }
+  ]
+}

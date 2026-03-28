@@ -1,0 +1,32 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Windows-Personalization-NoLockScreenCamera",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NoLockScreenCamera (Administrative Templates - Control Panel)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\Personalization\\NoLockScreenCamera must be 1. Severity: Low. Category: Administrative Templates - Control Panel."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-Personalization-NoLockScreenSlideshow",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NoLockScreenSlideshow (Administrative Templates - Control Panel)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\Personalization\\NoLockScreenSlideshow must be 1. Severity: Low. Category: Administrative Templates - Control Panel."
+        }
+      ]
+    }
+  ]
+}

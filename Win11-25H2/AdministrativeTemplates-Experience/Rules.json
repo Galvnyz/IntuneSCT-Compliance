@@ -1,0 +1,46 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Windows-CloudContent-DisableWindowsConsumerFeatures",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableWindowsConsumerFeatures (Administrative Templates - Experience)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CloudContent\\DisableWindowsConsumerFeatures must be 1. Severity: Low. Category: Administrative Templates - Experience."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-GameDVR-AllowGameDVR",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowGameDVR (Administrative Templates - Experience)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\GameDVR\\AllowGameDVR must be 0. Severity: Low. Category: Administrative Templates - Experience."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-CloudContent-DisableThirdPartySuggestions",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableThirdPartySuggestions (Administrative Templates - Experience)",
+          "Description": "Registry: HKU\\Software\\Policies\\Microsoft\\Windows\\CloudContent\\DisableThirdPartySuggestions must be 1. Severity: Low. Category: Administrative Templates - Experience."
+        }
+      ]
+    }
+  ]
+}

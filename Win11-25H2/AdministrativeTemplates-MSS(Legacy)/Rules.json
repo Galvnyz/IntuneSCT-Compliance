@@ -1,0 +1,74 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Netbt-Parameters-NoNameReleaseOnDemand",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NoNameReleaseOnDemand (Administrative Templates - MSS (Legacy))",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\Netbt\\Parameters\\NoNameReleaseOnDemand must be 1. Severity: Medium. Category: Administrative Templates - MSS (Legacy)."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Netbt-Parameters-NodeType",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NodeType (Administrative Templates - MSS (Legacy))",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\Netbt\\Parameters\\NodeType must be 2. Severity: Medium. Category: Administrative Templates - MSS (Legacy)."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Tcpip-Parameters-EnableICMPRedirect",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableICMPRedirect (Administrative Templates - MSS (Legacy))",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters\\EnableICMPRedirect must be 0. Severity: Medium. Category: Administrative Templates - MSS (Legacy)."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Tcpip-Parameters-DisableIPSourceRouting",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableIPSourceRouting (Administrative Templates - MSS (Legacy))",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters\\DisableIPSourceRouting must be 2. Severity: Medium. Category: Administrative Templates - MSS (Legacy)."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Tcpip6-Parameters-DisableIPSourceRouting",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableIPSourceRouting (Administrative Templates - MSS (Legacy))",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip6\\Parameters\\DisableIPSourceRouting must be 2. Severity: Medium. Category: Administrative Templates - MSS (Legacy)."
+        }
+      ]
+    }
+  ]
+}

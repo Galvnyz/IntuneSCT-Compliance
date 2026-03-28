@@ -1,0 +1,46 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Policies-CredUI-EnumerateAdministrators",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnumerateAdministrators (Administrative Templates - Credential Delegation)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\CredUI\\EnumerateAdministrators must be 0. Severity: Medium. Category: Administrative Templates - Credential Delegation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-CredSSP-Parameters-AllowEncryptionOracle",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowEncryptionOracle (Administrative Templates - Credential Delegation)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\CredSSP\\Parameters\\AllowEncryptionOracle must be 0. Severity: High. Category: Administrative Templates - Credential Delegation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-CredentialsDelegation-AllowProtectedCreds",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowProtectedCreds (Administrative Templates - Credential Delegation)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CredentialsDelegation\\AllowProtectedCreds must be 1. Severity: High. Category: Administrative Templates - Credential Delegation."
+        }
+      ]
+    }
+  ]
+}

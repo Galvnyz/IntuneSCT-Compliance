@@ -1,0 +1,326 @@
+{
+  "Rules": [
+    {
+      "SettingName": "PRV-SeSecurityPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeSecurityPrivilege",
+          "Description": "Privilege 'SeSecurityPrivilege' must be assigned to: *S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeRestorePrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeRestorePrivilege",
+          "Description": "Privilege 'SeRestorePrivilege' must be assigned to: *S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeTakeOwnershipPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeTakeOwnershipPrivilege",
+          "Description": "Privilege 'SeTakeOwnershipPrivilege' must be assigned to: *S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeBackupPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeBackupPrivilege",
+          "Description": "Privilege 'SeBackupPrivilege' must be assigned to: *S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeDenyRemoteInteractiveLogonRight",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-113",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeDenyRemoteInteractiveLogonRight",
+          "Description": "Privilege 'SeDenyRemoteInteractiveLogonRight' must be assigned to: *S-1-5-113. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeCreatePermanentPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeCreatePermanentPrivilege",
+          "Description": "Privilege 'SeCreatePermanentPrivilege' must be assigned to: . Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeManageVolumePrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeManageVolumePrivilege",
+          "Description": "Privilege 'SeManageVolumePrivilege' must be assigned to: *S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeLoadDriverPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeLoadDriverPrivilege",
+          "Description": "Privilege 'SeLoadDriverPrivilege' must be assigned to: *S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeLockMemoryPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeLockMemoryPrivilege",
+          "Description": "Privilege 'SeLockMemoryPrivilege' must be assigned to: . Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeDenyNetworkLogonRight",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-113",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeDenyNetworkLogonRight",
+          "Description": "Privilege 'SeDenyNetworkLogonRight' must be assigned to: *S-1-5-113. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeNetworkLogonRight",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-32-555,*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeNetworkLogonRight",
+          "Description": "Privilege 'SeNetworkLogonRight' must be assigned to: *S-1-5-32-555,*S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeImpersonatePrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-6,*S-1-5-99-216390572-1995538116-3857911515-2404958512-2623887229,*S-1-5-20,*S-1-5-19,*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeImpersonatePrivilege",
+          "Description": "Privilege 'SeImpersonatePrivilege' must be assigned to: *S-1-5-6,*S-1-5-99-216390572-1995538116-3857911515-2404958512-2623887229,*S-1-5-20,*S-1-5-19,*S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeCreateTokenPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeCreateTokenPrivilege",
+          "Description": "Privilege 'SeCreateTokenPrivilege' must be assigned to: . Severity: Critical."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeCreateGlobalPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-20,*S-1-5-19,*S-1-5-6,*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeCreateGlobalPrivilege",
+          "Description": "Privilege 'SeCreateGlobalPrivilege' must be assigned to: *S-1-5-20,*S-1-5-19,*S-1-5-6,*S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeSystemEnvironmentPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeSystemEnvironmentPrivilege",
+          "Description": "Privilege 'SeSystemEnvironmentPrivilege' must be assigned to: *S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeCreatePagefilePrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeCreatePagefilePrivilege",
+          "Description": "Privilege 'SeCreatePagefilePrivilege' must be assigned to: *S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeInteractiveLogonRight",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-32-545,*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeInteractiveLogonRight",
+          "Description": "Privilege 'SeInteractiveLogonRight' must be assigned to: *S-1-5-32-545,*S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeRemoteShutdownPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeRemoteShutdownPrivilege",
+          "Description": "Privilege 'SeRemoteShutdownPrivilege' must be assigned to: *S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeDebugPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeDebugPrivilege",
+          "Description": "Privilege 'SeDebugPrivilege' must be assigned to: *S-1-5-32-544. Severity: Critical."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeTrustedCredManAccessPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeTrustedCredManAccessPrivilege",
+          "Description": "Privilege 'SeTrustedCredManAccessPrivilege' must be assigned to: . Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeProfileSingleProcessPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "*S-1-5-32-544",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeProfileSingleProcessPrivilege",
+          "Description": "Privilege 'SeProfileSingleProcessPrivilege' must be assigned to: *S-1-5-32-544. Severity: High."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeTcbPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeTcbPrivilege",
+          "Description": "Privilege 'SeTcbPrivilege' must be assigned to: . Severity: Critical."
+        }
+      ]
+    },
+    {
+      "SettingName": "PRV-SeEnableDelegationPrivilege",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SeEnableDelegationPrivilege",
+          "Description": "Privilege 'SeEnableDelegationPrivilege' must be assigned to: . Severity: High."
+        }
+      ]
+    }
+  ]
+}

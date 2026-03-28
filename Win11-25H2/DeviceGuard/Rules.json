@@ -1,0 +1,116 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Windows-DeviceGuard-EnableVirtualizationBasedSecurity",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableVirtualizationBasedSecurity (Device Guard)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DeviceGuard\\EnableVirtualizationBasedSecurity must be 1. Severity: Critical. Category: Device Guard."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-DeviceGuard-RequirePlatformSecurityFeatures",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RequirePlatformSecurityFeatures (Device Guard)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DeviceGuard\\RequirePlatformSecurityFeatures must be 1. Severity: Critical. Category: Device Guard."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-DeviceGuard-HypervisorEnforcedCodeIntegrity",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "HypervisorEnforcedCodeIntegrity (Device Guard)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DeviceGuard\\HypervisorEnforcedCodeIntegrity must be 1. Severity: Critical. Category: Device Guard."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-DeviceGuard-HVCIMATRequired",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "HVCIMATRequired (Device Guard)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DeviceGuard\\HVCIMATRequired must be 1. Severity: Critical. Category: Device Guard."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-DeviceGuard-LsaCfgFlags",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LsaCfgFlags (Device Guard)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DeviceGuard\\LsaCfgFlags must be 1. Severity: Critical. Category: Device Guard."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-DeviceGuard-MachineIdentityIsolation",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MachineIdentityIsolation (Device Guard)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DeviceGuard\\MachineIdentityIsolation must be 3. Severity: Critical. Category: Device Guard."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-DeviceGuard-ConfigureSystemGuardLaunch",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ConfigureSystemGuardLaunch (Device Guard)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DeviceGuard\\ConfigureSystemGuardLaunch must be 1. Severity: Critical. Category: Device Guard."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-DeviceGuard-ConfigureKernelShadowStacksLaunch",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ConfigureKernelShadowStacksLaunch (Device Guard)",
+          "Description": "Registry: HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DeviceGuard\\ConfigureKernelShadowStacksLaunch must be 1. Severity: Critical. Category: Device Guard."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-wifinetworkmanager-config-AutoConnectAllowedOEM",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AutoConnectAllowedOEM (Wi-Fi Settings)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\WcmSvc\\wifinetworkmanager\\config\\AutoConnectAllowedOEM must be 0. Severity: Medium. Category: Wi-Fi Settings."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WcmSvc-GroupPolicy-fBlockNonDomain",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "fBlockNonDomain (Wi-Fi Settings)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\WcmSvc\\GroupPolicy\\fBlockNonDomain must be 1. Severity: Medium. Category: Wi-Fi Settings."
+        }
+      ]
+    }
+  ]
+}

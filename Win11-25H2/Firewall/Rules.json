@@ -1,0 +1,340 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Microsoft-WindowsFirewall-PolicyVersion",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "538",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PolicyVersion (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PolicyVersion must be 538. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-DomainProfile-DefaultOutboundAction",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DefaultOutboundAction (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\DefaultOutboundAction must be 0. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-DomainProfile-DisableNotifications",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableNotifications (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\DisableNotifications must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-DomainProfile-EnableFirewall",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableFirewall (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\EnableFirewall must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-DomainProfile-DefaultInboundAction",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DefaultInboundAction (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\DefaultInboundAction must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-DomainProfile-Logging-LogDroppedPackets",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogDroppedPackets (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\Logging\\LogDroppedPackets must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-DomainProfile-Logging-LogFileSize",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "16384",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogFileSize (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\Logging\\LogFileSize must be 16384. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-DomainProfile-Logging-LogSuccessfulConnections",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogSuccessfulConnections (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile\\Logging\\LogSuccessfulConnections must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PrivateProfile-EnableFirewall",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableFirewall (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\EnableFirewall must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PrivateProfile-DisableNotifications",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableNotifications (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\DisableNotifications must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PrivateProfile-DefaultInboundAction",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DefaultInboundAction (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\DefaultInboundAction must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PrivateProfile-DefaultOutboundAction",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DefaultOutboundAction (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\DefaultOutboundAction must be 0. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-PrivateProfile-Logging-LogSuccessfulConnections",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogSuccessfulConnections (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\Logging\\LogSuccessfulConnections must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-PrivateProfile-Logging-LogDroppedPackets",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogDroppedPackets (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\Logging\\LogDroppedPackets must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-PrivateProfile-Logging-LogFileSize",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "16384",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogFileSize (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile\\Logging\\LogFileSize must be 16384. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PublicProfile-DefaultOutboundAction",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DefaultOutboundAction (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\DefaultOutboundAction must be 0. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PublicProfile-EnableFirewall",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableFirewall (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\EnableFirewall must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PublicProfile-DisableNotifications",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableNotifications (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\DisableNotifications must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PublicProfile-AllowLocalIPsecPolicyMerge",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowLocalIPsecPolicyMerge (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\AllowLocalIPsecPolicyMerge must be 0. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PublicProfile-AllowLocalPolicyMerge",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowLocalPolicyMerge (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\AllowLocalPolicyMerge must be 0. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-WindowsFirewall-PublicProfile-DefaultInboundAction",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DefaultInboundAction (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\DefaultInboundAction must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-PublicProfile-Logging-LogFileSize",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "16384",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogFileSize (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\Logging\\LogFileSize must be 16384. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-PublicProfile-Logging-LogDroppedPackets",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogDroppedPackets (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\Logging\\LogDroppedPackets must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-PublicProfile-Logging-LogSuccessfulConnections",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LogSuccessfulConnections (Firewall)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile\\Logging\\LogSuccessfulConnections must be 1. Severity: High. Category: Firewall."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-EventLog-Application-MaxSize",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "32768",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MaxSize (Administrative Templates - Event Log Service)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\EventLog\\Application\\MaxSize must be 32768. Severity: Medium. Category: Administrative Templates - Event Log Service."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-EventLog-Security-MaxSize",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "196608",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MaxSize (Administrative Templates - Event Log Service)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\EventLog\\Security\\MaxSize must be 196608. Severity: Medium. Category: Administrative Templates - Event Log Service."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-EventLog-System-MaxSize",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "32768",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MaxSize (Administrative Templates - Event Log Service)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\EventLog\\System\\MaxSize must be 32768. Severity: Medium. Category: Administrative Templates - Event Log Service."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Windows-Network Connections-NC_ShowSharedAccessUI",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NC_ShowSharedAccessUI (Administrative Templates - Network)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\Network Connections\\NC_ShowSharedAccessUI must be 0. Severity: Medium. Category: Administrative Templates - Network."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-NetworkProvider-EnableMailslots",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableMailslots (Administrative Templates - Network)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\NetworkProvider\\EnableMailslots must be 0. Severity: Medium. Category: Administrative Templates - Network."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG--*-SYSVOL",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "RequireMutualAuthentication=1,RequireIntegrity=1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "\\\\*\\SYSVOL (Administrative Templates - Network)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\NetworkProvider\\HardenedPaths\\\\\\*\\SYSVOL must be RequireMutualAuthentication=1,RequireIntegrity=1. Severity: Medium. Category: Administrative Templates - Network."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG--*-NETLOGON",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "RequireMutualAuthentication=1,RequireIntegrity=1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "\\\\*\\NETLOGON (Administrative Templates - Network)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\NetworkProvider\\HardenedPaths\\\\\\*\\NETLOGON must be RequireMutualAuthentication=1,RequireIntegrity=1. Severity: Medium. Category: Administrative Templates - Network."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows NT-DNSClient-EnableMulticast",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableMulticast (Administrative Templates - Network)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\DNSClient\\EnableMulticast must be 0. Severity: Medium. Category: Administrative Templates - Network."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows NT-DNSClient-EnableNetbios",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableNetbios (Administrative Templates - Network)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\DNSClient\\EnableNetbios must be 0. Severity: Medium. Category: Administrative Templates - Network."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows NT-Rpc-RestrictRemoteClients",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RestrictRemoteClients (Administrative Templates - Network)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Rpc\\RestrictRemoteClients must be 1. Severity: Medium. Category: Administrative Templates - Network."
+        }
+      ]
+    }
+  ]
+}

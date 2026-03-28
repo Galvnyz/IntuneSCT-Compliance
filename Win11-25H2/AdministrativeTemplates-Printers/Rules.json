@@ -1,0 +1,144 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Windows NT-Printers-DisableWebPnPDownload",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableWebPnPDownload (Administrative Templates - Printers)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\DisableWebPnPDownload must be 1. Severity: Medium. Category: Administrative Templates - Printers."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows NT-Printers-RedirectionGuardPolicy",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RedirectionGuardPolicy (Administrative Templates - Printers)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\RedirectionGuardPolicy must be 1. Severity: Medium. Category: Administrative Templates - Printers."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows NT-Printers-CopyFilesPolicy",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "CopyFilesPolicy (Administrative Templates - Printers)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\CopyFilesPolicy must be 1. Severity: Medium. Category: Administrative Templates - Printers."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Printers-PointAndPrint-RestrictDriverInstallationToAdministrators",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RestrictDriverInstallationToAdministrators (Administrative Templates - Printers)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\PointAndPrint\\RestrictDriverInstallationToAdministrators must be 1. Severity: High. Category: Administrative Templates - Printers."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Printers-RPC-RpcUseNamedPipeProtocol",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RpcUseNamedPipeProtocol (Administrative Templates - Printers)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\RPC\\RpcUseNamedPipeProtocol must be 0. Severity: Medium. Category: Administrative Templates - Printers."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Printers-RPC-RpcAuthentication",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RpcAuthentication (Administrative Templates - Printers)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\RPC\\RpcAuthentication must be 0. Severity: Medium. Category: Administrative Templates - Printers."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Printers-RPC-RpcProtocols",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "5",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RpcProtocols (Administrative Templates - Printers)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\RPC\\RpcProtocols must be 5. Severity: Medium. Category: Administrative Templates - Printers."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Printers-RPC-ForceKerberosForRpc",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ForceKerberosForRpc (Administrative Templates - Printers)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\RPC\\ForceKerberosForRpc must be 0. Severity: Medium. Category: Administrative Templates - Printers."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Printers-RPC-RpcTcpPort",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RpcTcpPort (Administrative Templates - Printers)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows NT\\Printers\\RPC\\RpcTcpPort must be 0. Severity: Medium. Category: Administrative Templates - Printers."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Control-Print-RpcAuthnLevelPrivacyEnabled",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RpcAuthnLevelPrivacyEnabled (Administrative Templates - Printers)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\RpcAuthnLevelPrivacyEnabled must be 1. Severity: Medium. Category: Administrative Templates - Printers."
+        }
+      ]
+    }
+  ]
+}

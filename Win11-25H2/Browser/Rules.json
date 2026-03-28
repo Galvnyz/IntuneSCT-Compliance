@@ -1,0 +1,1908 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Internet Explorer-Feeds-DisableEnclosureDownload",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableEnclosureDownload (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Feeds\\DisableEnclosureDownload must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-Ext-RunThisTimeEnabled",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RunThisTimeEnabled (Browser)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Ext\\RunThisTimeEnabled must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-Ext-VersionCheckEnabled",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "VersionCheckEnabled (Browser)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Ext\\VersionCheckEnabled must be 1. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-Download-RunInvalidSignatures",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RunInvalidSignatures (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Download\\RunInvalidSignatures must be 0. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-Download-CheckExeSignatures",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "yes",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "CheckExeSignatures (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Download\\CheckExeSignatures must be yes. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-Main-Isolation64Bit",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Isolation64Bit (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\Isolation64Bit must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-Main-DisableEPMCompat",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableEPMCompat (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\DisableEPMCompat must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-Main-Isolation",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "PMEM",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Isolation (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\Isolation must be PMEM. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-Main-DisableInternetExplorerLaunchViaCOM",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableInternetExplorerLaunchViaCOM (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\DisableInternetExplorerLaunchViaCOM must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_DISABLE_MK_PROTOCOL-(Reserved)",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "(Reserved) (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_DISABLE_MK_PROTOCOL\\(Reserved) must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_DISABLE_MK_PROTOCOL-iexplore.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "iexplore.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_DISABLE_MK_PROTOCOL\\iexplore.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_DISABLE_MK_PROTOCOL-explorer.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "explorer.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_DISABLE_MK_PROTOCOL\\explorer.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_MIME_HANDLING-explorer.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "explorer.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_MIME_HANDLING\\explorer.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_MIME_HANDLING-iexplore.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "iexplore.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_MIME_HANDLING\\iexplore.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_MIME_HANDLING-(Reserved)",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "(Reserved) (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_MIME_HANDLING\\(Reserved) must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_MIME_SNIFFING-explorer.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "explorer.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_MIME_SNIFFING\\explorer.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_MIME_SNIFFING-iexplore.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "iexplore.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_MIME_SNIFFING\\iexplore.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_MIME_SNIFFING-(Reserved)",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "(Reserved) (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_MIME_SNIFFING\\(Reserved) must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_RESTRICT_ACTIVEXINSTALL-(Reserved)",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "(Reserved) (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_RESTRICT_ACTIVEXINSTALL\\(Reserved) must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_RESTRICT_ACTIVEXINSTALL-explorer.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "explorer.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_RESTRICT_ACTIVEXINSTALL\\explorer.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_RESTRICT_ACTIVEXINSTALL-iexplore.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "iexplore.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_RESTRICT_ACTIVEXINSTALL\\iexplore.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_RESTRICT_FILEDOWNLOAD-(Reserved)",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "(Reserved) (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_RESTRICT_FILEDOWNLOAD\\(Reserved) must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_RESTRICT_FILEDOWNLOAD-iexplore.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "iexplore.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_RESTRICT_FILEDOWNLOAD\\iexplore.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_RESTRICT_FILEDOWNLOAD-explorer.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "explorer.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_RESTRICT_FILEDOWNLOAD\\explorer.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_SECURITYBAND-(Reserved)",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "(Reserved) (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_SECURITYBAND\\(Reserved) must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_SECURITYBAND-iexplore.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "iexplore.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_SECURITYBAND\\iexplore.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_SECURITYBAND-explorer.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "explorer.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_SECURITYBAND\\explorer.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_WINDOW_RESTRICTIONS-iexplore.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "iexplore.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_WINDOW_RESTRICTIONS\\iexplore.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_WINDOW_RESTRICTIONS-(Reserved)",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "(Reserved) (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_WINDOW_RESTRICTIONS\\(Reserved) must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_WINDOW_RESTRICTIONS-explorer.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "explorer.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_WINDOW_RESTRICTIONS\\explorer.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_ZONE_ELEVATION-(Reserved)",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "(Reserved) (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_ZONE_ELEVATION\\(Reserved) must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_ZONE_ELEVATION-explorer.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "explorer.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_ZONE_ELEVATION\\explorer.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-FeatureControl-FEATURE_ZONE_ELEVATION-iexplore.exe",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "iexplore.exe (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_ZONE_ELEVATION\\iexplore.exe must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-PhishingFilter-PreventOverrideAppRepUnknown",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PreventOverrideAppRepUnknown (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\PhishingFilter\\PreventOverrideAppRepUnknown must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-PhishingFilter-PreventOverride",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PreventOverride (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\PhishingFilter\\PreventOverride must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-PhishingFilter-EnabledV9",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnabledV9 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\PhishingFilter\\EnabledV9 must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-Restrictions-NoCrashDetection",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NoCrashDetection (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Restrictions\\NoCrashDetection must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-Security-DisableSecuritySettingsCheck",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableSecuritySettingsCheck (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Security\\DisableSecuritySettingsCheck must be 0. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Security-ActiveX-BlockNonAdminActiveXInstall",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "BlockNonAdminActiveXInstall (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Internet Explorer\\Security\\ActiveX\\BlockNonAdminActiveXInstall must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-CurrentVersion-Internet Settings-Security_zones_map_edit",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Security_zones_map_edit (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Security_zones_map_edit must be 1. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-CurrentVersion-Internet Settings-Security_options_edit",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Security_options_edit (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Security_options_edit must be 1. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-CurrentVersion-Internet Settings-Security_HKLM_only",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Security_HKLM_only (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Security_HKLM_only must be 1. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-CurrentVersion-Internet Settings-CertificateRevocation",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "CertificateRevocation (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\CertificateRevocation must be 1. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-CurrentVersion-Internet Settings-PreventIgnoreCertErrors",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PreventIgnoreCertErrors (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\PreventIgnoreCertErrors must be 1. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-CurrentVersion-Internet Settings-WarnOnBadCertRecving",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "WarnOnBadCertRecving (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\WarnOnBadCertRecving must be 1. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-CurrentVersion-Internet Settings-EnableSSL3Fallback",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableSSL3Fallback (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\EnableSSL3Fallback must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-CurrentVersion-Internet Settings-SecureProtocols",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2560",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SecureProtocols (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SecureProtocols must be 2560. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Lockdown_Zones-0-1C00",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1C00 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Lockdown_Zones\\0\\1C00 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Lockdown_Zones-1-1C00",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1C00 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Lockdown_Zones\\1\\1C00 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Lockdown_Zones-2-1C00",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1C00 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Lockdown_Zones\\2\\1C00 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Lockdown_Zones-3-2301",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2301 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Lockdown_Zones\\3\\2301 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Lockdown_Zones-4-2301",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2301 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Lockdown_Zones\\4\\2301 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Lockdown_Zones-4-1C00",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1C00 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Lockdown_Zones\\4\\1C00 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Settings-ZoneMap-UNCAsIntranet",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "UNCAsIntranet (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\UNCAsIntranet must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-0-1C00",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1C00 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0\\1C00 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-0-270C",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "270C (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0\\270C must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-1-270C",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "270C (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1\\270C must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-1-1201",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1201 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1\\1201 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-1-1C00",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "65536",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1C00 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1\\1C00 must be 65536. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-2-1C00",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "65536",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1C00 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2\\1C00 must be 65536. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-2-270C",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "270C (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2\\270C must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-2-1201",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1201 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2\\1201 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-2001",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2001 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\2001 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-2102",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2102 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\2102 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1802",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1802 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1802 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-160A",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "160A (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\160A must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1201",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1201 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1201 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1406",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1406 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1406 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1804",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1804 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1804 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-2200",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2200 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\2200 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1209",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1209 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1209 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1206",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1206 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1206 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1809",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1809 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1809 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-2500",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2500 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\2500 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-2103",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2103 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\2103 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1606",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1606 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1606 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-2402",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2402 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\2402 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-2004",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2004 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\2004 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1C00",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1C00 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1C00 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1001",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1001 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1001 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1A00",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "65536",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1A00 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1A00 must be 65536. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-2708",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2708 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\2708 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1004",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1004 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1004 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-120b",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "120b (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\120b must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1407",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1407 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1407 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1409",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1409 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1409 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-270C",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "270C (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\270C must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1607",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1607 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1607 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-2709",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2709 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\2709 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-2101",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2101 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\2101 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-2301",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2301 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\2301 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-1806",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1806 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1806 must be 1. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-120c",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "120c (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\120c must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-3-140C",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "140C (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\140C must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1608",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1608 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1608 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1201",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1201 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1201 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1001",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1001 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1001 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1607",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1607 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1607 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-120b",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "120b (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\120b must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1809",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1809 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1809 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1004",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1004 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1004 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1606",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1606 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1606 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1407",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1407 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1407 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-160A",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "160A (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\160A must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1406",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1406 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1406 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-2102",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2102 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\2102 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-2004",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2004 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\2004 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-2200",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2200 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\2200 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-2000",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2000 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\2000 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1402",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1402 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1402 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1803",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1803 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1803 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-2402",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2402 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\2402 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1400",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1400 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1400 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1A00",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "196608",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1A00 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1A00 must be 196608. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-2001",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2001 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\2001 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-2500",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2500 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\2500 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1409",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1409 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1409 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1C00",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1C00 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1C00 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1209",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1209 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1209 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-270C",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "270C (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\270C must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1206",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1206 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1206 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-2708",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2708 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\2708 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1802",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1802 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1802 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-2103",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2103 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\2103 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-2709",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2709 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\2709 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1405",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1405 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1405 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-2101",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2101 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\2101 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-2301",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "2301 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\2301 must be 0. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1200",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1200 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1200 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1804",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1804 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1804 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-1806",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "1806 (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\1806 must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-120c",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "120c (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\120c must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Zones-4-140C",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "140C (Browser)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4\\140C must be 3. Severity: Medium. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-Control Panel-FormSuggest Passwords",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "FormSuggest Passwords (Browser)",
+          "Description": "Registry: HKU\\Software\\Policies\\Microsoft\\Internet Explorer\\Control Panel\\FormSuggest Passwords must be 1. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-Main-FormSuggest PW Ask",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "no",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "FormSuggest PW Ask (Browser)",
+          "Description": "Registry: HKU\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FormSuggest PW Ask must be no. Severity: Low. Category: Browser."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Internet Explorer-Main-FormSuggest Passwords",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "no",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "FormSuggest Passwords (Browser)",
+          "Description": "Registry: HKU\\Software\\Policies\\Microsoft\\Internet Explorer\\Main\\FormSuggest Passwords must be no. Severity: Low. Category: Browser."
+        }
+      ]
+    }
+  ]
+}

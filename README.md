@@ -15,35 +15,64 @@ Together, they form [Intune custom compliance policies](https://learn.microsoft.
 
 ### Windows 11 v25H2 Security Baseline
 
-425 settings across 15 categories. Each category is a separate compliance package to give you granular control over what to monitor.
+425 settings across 39 packages. Categories are aligned to the Intune security baseline configuration profile sections, so you can match each compliance package to the exact section you configured.
 
-| Category | Settings | Severity Mix | Script Size |
-|----------|----------|-------------|-------------|
-| Application Control | 13 | Critical: 1, High: 1, Medium: 10, Low: 1 | 4.5 KB |
-| Audit Logging | 26 | Critical: 2, High: 11, Medium: 13 | 6.8 KB |
-| Browser Security | 136 | Medium: 96, Low: 40 | 38.6 KB |
-| Credential Protection | 20 | Critical: 17, High: 2, Medium: 1 | 6.3 KB |
-| Device Security | 5 | Critical: 1, Medium: 4 | 2.0 KB |
-| Encryption | 4 | High: 4 | 1.4 KB |
-| Endpoint Protection | 45 | High: 44, Medium: 1 | 16.2 KB |
-| Identity & Access | 63 | Critical: 7, High: 34, Medium: 22 | 19.0 KB |
-| Network Security | 71 | High: 55, Medium: 16 | 22.1 KB |
-| OS Hardening | 8 | Medium: 8 | 2.6 KB |
-| Power Management | 4 | Low: 4 | 1.8 KB |
-| Print Security | 10 | High: 1, Medium: 9 | 3.3 KB |
-| Privacy & Telemetry | 6 | Medium: 2, Low: 4 | 2.4 KB |
-| Remote Access | 10 | High: 10 | 3.6 KB |
-| Service Hardening | 4 | Low: 4 | 1.0 KB |
+#### Top-Level Sections
+
+| Category | Settings | Directory |
+|----------|----------|-----------|
+| Auditing | 23 | `Auditing/` |
+| Browser | 136 | `Browser/` |
+| Defender | 40 | `Defender/` |
+| Device Guard | 8 | `DeviceGuard/` |
+| Device Lock | 9 | `DeviceLock/` |
+| Dma Guard | 1 | `DmaGuard/` |
+| Firewall | 24 | `Firewall/` |
+| Kerberos | 10 | `Kerberos/` |
+| LAPS | 3 | `LAPS/` |
+| Lanman Server | 9 | `LanmanServer/` |
+| Lanman Workstation | 10 | `LanmanWorkstation/` |
+| Local Policies Security Options | 16 | `LocalPoliciesSecurityOptions/` |
+| Local Security Authority | 16 | `LocalSecurityAuthority/` |
+| Smart Screen | 4 | `SmartScreen/` |
+| Sudo | 1 | `Sudo/` |
+| System Services | 4 | `SystemServices/` |
+| User Rights | 23 | `UserRights/` |
+| Wi-Fi Settings | 2 | `Wi-FiSettings/` |
+| Windows Hello For Business | 1 | `WindowsHelloForBusiness/` |
+| Windows Ink Workspace | 1 | `WindowsInkWorkspace/` |
+
+#### Administrative Templates Sub-Categories
+
+These match the sub-headings within the "Administrative Templates" section of the Intune security baseline profile.
+
+| Sub-Category | Settings | Directory |
+|-------------|----------|-----------|
+| BitLocker Drive Encryption | 4 | `AdministrativeTemplates-BitLockerDriveEncryption/` |
+| Control Panel | 2 | `AdministrativeTemplates-ControlPanel/` |
+| Credential Delegation | 3 | `AdministrativeTemplates-CredentialDelegation/` |
+| Device Installation | 4 | `AdministrativeTemplates-DeviceInstallation/` |
+| Event Log Service | 3 | `AdministrativeTemplates-EventLogService/` |
+| Experience | 3 | `AdministrativeTemplates-Experience/` |
+| File Explorer | 5 | `AdministrativeTemplates-FileExplorer/` |
+| MS Security Guide | 4 | `AdministrativeTemplates-MSSecurityGuide/` |
+| MSS (Legacy) | 5 | `AdministrativeTemplates-MSS(Legacy)/` |
+| Network | 7 | `AdministrativeTemplates-Network/` |
+| Power | 4 | `AdministrativeTemplates-Power/` |
+| Printers | 10 | `AdministrativeTemplates-Printers/` |
+| Privacy | 2 | `AdministrativeTemplates-Privacy/` |
+| Remote Desktop Services | 10 | `AdministrativeTemplates-RemoteDesktopServices/` |
+| Search | 1 | `AdministrativeTemplates-Search/` |
+| System | 6 | `AdministrativeTemplates-System/` |
+| Windows Installer | 3 | `AdministrativeTemplates-WindowsInstaller/` |
+| Windows PowerShell | 2 | `AdministrativeTemplates-WindowsPowerShell/` |
+| Windows Remote Management | 6 | `AdministrativeTemplates-WindowsRemoteManagement/` |
 
 ## Quick Start
 
 ### 1. Choose your categories
 
-Start with the highest-impact categories:
-
-- **Credential Protection** (20 settings) - LSASS protection, Device Guard, NTLM controls
-- **Network Security** (71 settings) - Firewall, SMB signing, LDAP, WinRM
-- **Identity & Access** (63 settings) - UAC, privilege rights, password policies
+Start with the categories that match what you've configured in your Intune security baseline profile. If you configured "Device Guard" and "Local Security Authority" in the baseline, deploy those same compliance packages.
 
 ### 2. Upload to Intune
 

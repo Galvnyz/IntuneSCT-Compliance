@@ -1,0 +1,144 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Windows-Bowser-EnableMailslots",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableMailslots (Lanman Workstation)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\Bowser\\EnableMailslots must be 0. Severity: Medium. Category: Lanman Workstation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-AllowInsecureGuestAuth",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowInsecureGuestAuth (Lanman Workstation)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\AllowInsecureGuestAuth must be 0. Severity: High. Category: Lanman Workstation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-AuditInsecureGuestLogon",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AuditInsecureGuestLogon (Lanman Workstation)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\AuditInsecureGuestLogon must be 1. Severity: High. Category: Lanman Workstation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-AuditServerDoesNotSupportEncryption",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AuditServerDoesNotSupportEncryption (Lanman Workstation)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\AuditServerDoesNotSupportEncryption must be 1. Severity: High. Category: Lanman Workstation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-AuditServerDoesNotSupportSigning",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AuditServerDoesNotSupportSigning (Lanman Workstation)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\AuditServerDoesNotSupportSigning must be 1. Severity: High. Category: Lanman Workstation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-MaxSmb2Dialect",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "785",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MaxSmb2Dialect (Lanman Workstation)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\MaxSmb2Dialect must be 785. Severity: High. Category: Lanman Workstation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-MinSmb2Dialect",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "768",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "MinSmb2Dialect (Lanman Workstation)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\MinSmb2Dialect must be 768. Severity: High. Category: Lanman Workstation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-LanmanWorkstation-RequireEncryption",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RequireEncryption (Lanman Workstation)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\LanmanWorkstation\\RequireEncryption must be 0. Severity: High. Category: Lanman Workstation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-LanmanWorkstation-Parameters-EnablePlainTextPassword",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnablePlainTextPassword (Lanman Workstation)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\LanmanWorkstation\\Parameters\\EnablePlainTextPassword must be 0. Severity: High. Category: Lanman Workstation."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-LanmanWorkstation-Parameters-RequireSecuritySignature",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "RequireSecuritySignature (Lanman Workstation)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Services\\LanmanWorkstation\\Parameters\\RequireSecuritySignature must be 1. Severity: High. Category: Lanman Workstation."
+        }
+      ]
+    }
+  ]
+}

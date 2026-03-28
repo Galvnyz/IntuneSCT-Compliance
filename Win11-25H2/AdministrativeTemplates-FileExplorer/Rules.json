@@ -1,0 +1,74 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Policies-Explorer-NoDriveTypeAutoRun",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "255",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NoDriveTypeAutoRun (Administrative Templates - File Explorer)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoDriveTypeAutoRun must be 255. Severity: Medium. Category: Administrative Templates - File Explorer."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-Explorer-NoWebServices",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NoWebServices (Administrative Templates - File Explorer)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoWebServices must be 1. Severity: Medium. Category: Administrative Templates - File Explorer."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Policies-Explorer-NoAutorun",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NoAutorun (Administrative Templates - File Explorer)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoAutorun must be 1. Severity: Medium. Category: Administrative Templates - File Explorer."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-Explorer-NoAutoplayfornonVolume",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NoAutoplayfornonVolume (Administrative Templates - File Explorer)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\Explorer\\NoAutoplayfornonVolume must be 1. Severity: Medium. Category: Administrative Templates - File Explorer."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-Explorer-DisableMotWOnInsecurePathCopy",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableMotWOnInsecurePathCopy (Administrative Templates - File Explorer)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\Explorer\\DisableMotWOnInsecurePathCopy must be 0. Severity: Medium. Category: Administrative Templates - File Explorer."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Windows-Installer-AlwaysInstallElevated",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AlwaysInstallElevated (Administrative Templates - Windows Installer)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\Installer\\AlwaysInstallElevated must be 0. Severity: Critical. Category: Administrative Templates - Windows Installer."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-Installer-EnableUserControl",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "EnableUserControl (Administrative Templates - Windows Installer)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\Installer\\EnableUserControl must be 0. Severity: High. Category: Administrative Templates - Windows Installer."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Windows-AxInstaller-OnlyUseAXISForActiveXInstall",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "OnlyUseAXISForActiveXInstall (Administrative Templates - Windows Installer)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\AxInstaller\\OnlyUseAXISForActiveXInstall must be 1. Severity: Medium. Category: Administrative Templates - Windows Installer."
+        }
+      ]
+    }
+  ]
+}

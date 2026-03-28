@@ -1,0 +1,18 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Microsoft-WindowsInkWorkspace-AllowWindowsInkWorkspace",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "AllowWindowsInkWorkspace (Windows Ink Workspace)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\WindowsInkWorkspace\\AllowWindowsInkWorkspace must be 1. Severity: Medium. Category: Windows Ink Workspace."
+        }
+      ]
+    }
+  ]
+}

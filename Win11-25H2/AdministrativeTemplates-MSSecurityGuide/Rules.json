@@ -1,0 +1,60 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Session Manager-kernel-DisableExceptionChainValidation",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "DisableExceptionChainValidation (Administrative Templates - MS Security Guide)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\kernel\\DisableExceptionChainValidation must be 0. Severity: Medium. Category: Administrative Templates - MS Security Guide."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-LanmanServer-Parameters-SMB1",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "SMB1 (Administrative Templates - MS Security Guide)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\LanmanServer\\Parameters\\SMB1 must be 0. Severity: High. Category: Administrative Templates - MS Security Guide."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Services-MrxSmb10-Start",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "4",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Start (Administrative Templates - MS Security Guide)",
+          "Description": "Registry: HKLM\\SYSTEM\\CurrentControlSet\\Services\\MrxSmb10\\Start must be 4. Severity: High. Category: Administrative Templates - MS Security Guide."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Control-Session Manager-ProtectionMode",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ProtectionMode (Administrative Templates - MS Security Guide)",
+          "Description": "Registry: HKLM\\System\\CurrentControlSet\\Control\\Session Manager\\ProtectionMode must be 1. Severity: Medium. Category: Administrative Templates - MS Security Guide."
+        }
+      ]
+    }
+  ]
+}

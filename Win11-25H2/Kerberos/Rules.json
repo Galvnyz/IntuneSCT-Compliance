@@ -1,0 +1,144 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-KDC-Parameters-PKINITHashAlgorithmConfigurationEnabled",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PKINITHashAlgorithmConfigurationEnabled (Kerberos)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\KDC\\Parameters\\PKINITHashAlgorithmConfigurationEnabled must be 1. Severity: Medium. Category: Kerberos."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-KDC-Parameters-PKINITSHA1",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PKINITSHA1 (Kerberos)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\KDC\\Parameters\\PKINITSHA1 must be 0. Severity: Medium. Category: Kerberos."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-KDC-Parameters-PKINITSHA256",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PKINITSHA256 (Kerberos)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\KDC\\Parameters\\PKINITSHA256 must be 3. Severity: Medium. Category: Kerberos."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-KDC-Parameters-PKINITSHA384",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PKINITSHA384 (Kerberos)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\KDC\\Parameters\\PKINITSHA384 must be 3. Severity: Medium. Category: Kerberos."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-KDC-Parameters-PKINITSHA512",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PKINITSHA512 (Kerberos)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\KDC\\Parameters\\PKINITSHA512 must be 3. Severity: Medium. Category: Kerberos."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Kerberos-Parameters-PKInitHashAlgorithmConfigurationEnabled",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PKInitHashAlgorithmConfigurationEnabled (Kerberos)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\Kerberos\\Parameters\\PKInitHashAlgorithmConfigurationEnabled must be 1. Severity: Medium. Category: Kerberos."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Kerberos-Parameters-PKInitSHA1",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PKInitSHA1 (Kerberos)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\Kerberos\\Parameters\\PKInitSHA1 must be 0. Severity: Medium. Category: Kerberos."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Kerberos-Parameters-PKInitSHA256",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PKInitSHA256 (Kerberos)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\Kerberos\\Parameters\\PKInitSHA256 must be 3. Severity: Medium. Category: Kerberos."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Kerberos-Parameters-PKInitSHA384",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PKInitSHA384 (Kerberos)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\Kerberos\\Parameters\\PKInitSHA384 must be 3. Severity: Medium. Category: Kerberos."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-Kerberos-Parameters-PKInitSHA512",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "3",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "PKInitSHA512 (Kerberos)",
+          "Description": "Registry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\Kerberos\\Parameters\\PKInitSHA512 must be 3. Severity: Medium. Category: Kerberos."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Windows-AppPrivacy-LetAppsActivateWithVoiceAboveLock",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "2",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "LetAppsActivateWithVoiceAboveLock (Administrative Templates - Privacy)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\AppPrivacy\\LetAppsActivateWithVoiceAboveLock must be 2. Severity: Medium. Category: Administrative Templates - Privacy."
+        }
+      ]
+    },
+    {
+      "SettingName": "REG-CurrentVersion-PushNotifications-NoToastApplicationNotificationOnLockScreen",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "1",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "NoToastApplicationNotificationOnLockScreen (Administrative Templates - Privacy)",
+          "Description": "Registry: HKU\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\PushNotifications\\NoToastApplicationNotificationOnLockScreen must be 1. Severity: Medium. Category: Administrative Templates - Privacy."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "Rules": [
+    {
+      "SettingName": "REG-Windows-Sudo-Enabled",
+      "Operator": "IsEquals",
+      "DataType": "Int64",
+      "Operand": "0",
+      "MoreInfoUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Enabled (Sudo)",
+          "Description": "Registry: HKLM\\Software\\Policies\\Microsoft\\Windows\\Sudo\\Enabled must be 0. Severity: Medium. Category: Sudo."
+        }
+      ]
+    }
+  ]
+}
